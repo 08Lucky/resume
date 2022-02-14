@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+    /* background-color: whitesmoke; */
+}
+.overallPage{
+    display: flex;
+    /* flex-direction: column;  */
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+    margin: 50px 80px; 
+}
+.leftSide{
+    width: 30%;
+    height: 2300px;
+    background-color: rgb(24, 59, 82);
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding-left: 35px;
+}
+.photo{
+    width: 90%;
+    height: 350px;
+    padding-top: 40px;
+}
+.photo img{
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+.contactDetails h1{
+    text-align: left;
+    font-size: 40px;
+    color: white;
+}
+.icons{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.icons a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.logo{
+    color: white;
+}
+.icons address{
+    font-size: 20px;
+    color: wheat;
+    font-weight: bolder;
+}
+.skills h1{
+    text-align: left;
+    font-size: 40px;
+    color: white;
+}
+.progressBar{
+    width: 90%;
+    /* position: relative; */
+}
+.progressBar h3{
+    font-size: 25px;
+    color: wheat;
+    font-weight: bolder;
+    margin: 5px 0;
+}
+.progressBar progress{
+    width: 90%;
+    height: 20px;
+}
+.work h3{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    margin: 15px 0;
+}
+.work p{
+    font-size: 18px;
+    color: wheat;
+    font-weight: lighter;
+    margin: 5px 0;
+    padding-right: 20px;
+}
+.work a{
+    color: wheat;
+}
+.rightSide{
+    width: 60%;
+    height: 2300px;
+    background-color: whitesmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about h1{
+    text-align: left;
+    font-size: 40px;
+    color: rgb(24, 59, 82);
+}
+.about h4{
+    font-size: 25px;
+    color: rgb(24, 59, 82);
+    margin: 15px 0;
+}
+.details h1{
+    text-align: left;
+    font-size: 25px;
+    color: rgb(24, 59, 82);
+}
+.timeline-ul{
+    list-style: none;
+    position: relative;
+}
+.timeline-ul::before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 10px;
+    background-color: black;
+}
+.timeline-ul-li{
+    position: relative;
+}
+.timeline-ul-li::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: -34px;
+    top: 5px;
+    border-radius: 50%;
+    background-color: rgb(131, 7, 48);
+}
+.timeline-ul-li p{
+    margin: 5px 0;
+}
